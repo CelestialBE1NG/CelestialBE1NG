@@ -1,0 +1,88 @@
+const dictionary = {
+    "hello": "used as a greeting or to begin a conversation.",
+  "world": "the earth, together with all of its countries, peoples, and natural features.",
+  "aryan": "fishe au chocolat",
+  "yu": "potayo",
+  "apple": "a round fruit with red or green skin and a whitish interior.",
+  "computer": "an electronic device for storing and processing data.",
+  "book": "a written or printed work consisting of pages glued or sewn together along one side and bound in covers.",
+  "cat": "a small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws.",
+  "tree": "a woody perennial plant, typically having a single stem or trunk growing to a considerable height and bearing lateral branches at some distance from the ground.",
+  "ocean": "a very large expanse of sea, in particular, each of the main areas into which the sea is divided geographically.",
+  "algorithm": "a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.",
+  "nebula": "a cloud of gas and dust in outer space, visible in the night sky either as an indistinct bright patch or as a dark silhouette against other luminous matter.",
+  "paradigm": "a typical example or pattern of something; a model.",
+  "quantum": "the smallest discrete quantity of some physical property that a system can possess (according to quantum theory).",
+  "onomatopoeia": "the formation of a word from a sound associated with what is named.",
+  "biodiversity": "the variety of life in the world or in a particular habitat or ecosystem.",
+  "entrepreneur": "a person who organizes and operates a business or businesses, taking on greater than normal financial risks in order to do so.",
+  "surreptitious": "kept secret, especially because it would not be approved of.",
+  "obfuscate": "render obscure, unclear, or unintelligible.",
+  "juxtaposition": "the fact of two things being seen or placed close together with contrasting effect.",
+  "dog": "a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, non-retractile claws, and a barking, howling, or whining voice.",
+  "sun": "the star around which the earth orbits.",
+  "ball": "a solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game.",
+  "run": "move at a speed faster than a walk, never having both or all the feet on the ground at the same time.",
+  "happy": "feeling or showing pleasure or contentment.",
+  "sleep": "a condition of body and mind that typically recurs for several hours every night, in which the nervous system is relatively inactive, the eyes closed, the postural muscles relaxed, and consciousness practically suspended.",
+  "eat": "put (food) into the mouth and chew and swallow it.",
+  "big": "of considerable size, extent, or intensity.",
+  // More words:
+  "car": "a road vehicle, typically with four wheels, powered by an internal combustion engine or electric motor.",
+  "flower": "the seed-bearing part of a plant, consisting of reproductive organs (stamens and carpels) that are typically surrounded by a brightly colored corolla (petals) and a green calyx (sepals).",
+  "music": "vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion.",
+  "school": "an institution for educating children.",
+  "rain": "moisture condensed from the atmosphere that falls visibly in separate drops.",
+  "house": "a building for human habitation, especially one that is lived in by a family or small group of people.",
+  "friend": "a person with whom one has a bond of mutual affection, typically one exclusive of sexual or family relations.",
+  "water": "a colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms.",
+  "love": "an intense feeling of deep affection.",
+  "rensay": "genius japanese guy",
+  "mountain": "a large natural elevation of the earth's surface rising abruptly from the surrounding level; a large steep hill.",
+  "bicycle": "a vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.",
+  "pizza": "a dish of Italian origin consisting of a flat, round base of dough baked with a topping of tomatoes and cheese, typically with added meat, fish, or vegetables.",
+  "guitar": "a stringed musical instrument with a fretted fingerboard, typically incurved sides, and six or twelve strings, played by plucking or strumming with the fingers or a plectrum.",
+  "river": "a large natural stream of water flowing in a channel to the sea, a lake, or another such stream.",
+  "cake": "an item of soft, sweet food made from a mixture of flour, shortening, eggs, sugar, and other ingredients, baked and often decorated.",
+  "bird": "a warm-blooded egg-laying vertebrate distinguished by the possession of feathers, wings, and a beak and (typically) by being able to fly.",
+  "flower": "the seed-bearing part of a plant, consisting of reproductive organs (stamens and carpels) that are typically surrounded by a brightly colored corolla (petals) and a green calyx (sepals).",
+  "lake": "a large body of water surrounded by land.",
+  "star": "a fixed luminous point in the night sky that is a large, remote incandescent body like the sun.",
+  "moon": "the natural satellite of the earth, visible (chiefly at night) by reflected light from the sun.",
+  "rain": "moisture condensed from the atmosphere that falls visibly in separate drops.",
+  "snow": "atmospheric water vapor frozen into ice crystals and falling in light white flakes or lying on the ground as a white layer.",
+  "banana": "a long curved fruit that grows in clusters and has soft pulpy flesh and yellow skin when ripe.",
+  "chair": "a separate seat for one person, typically with a back and four legs.",
+  "window": "an opening in the wall or roof of a building or vehicle that is fitted with glass or other transparent material in a frame to admit light or air and allow people to see out.",
+  "door": "a hinged, sliding, or revolving barrier at the entrance to a building, room, or vehicle, or in the framework of a cupboard.",
+  "road": "a wide way leading from one place to another, especially one with a specially prepared surface that vehicles can use.",
+  "cloud": "a visible mass of condensed water vapor floating in the atmosphere, typically high above the ground.",
+  "house": "a building for human habitation, especially one that is lived in by a family or small group of people.",
+  "table": "a piece of furniture with a flat top and one or more legs, providing a level surface on which objects may be placed, and that can be used for such purposes as eating, writing, working, or playing games.",
+  "book": "a written or printed work consisting of pages glued or sewn together along one side and bound in covers.",
+  "computer": "an electronic device for storing and processing data.",
+  "phone": "a telephone.",
+  "tree": "a woody perennial plant, typically having a single stem or trunk growing to a considerable height and bearing lateral branches at some distance from the ground.",
+  "dog": "a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, non-retractile claws, and a barking, howling, or whining voice.",
+  "cat": "a small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws.",
+  "car": "a road vehicle, typically with four wheels, powered by an internal combustion engine and able to carry a small number of people.",
+  "bus": "a large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare.",
+  "train": "a series of railroad cars moved as a unit by a locomotive or by integral motors.",
+  "airplane": "a powered flying vehicle with fixed wings and a weight greater than that of the air it displaces.",
+  "ship": "a large boat for transporting people or goods by sea.",
+  "rocket": "a cylindrical projectile that can be propelled to a great height or distance by the combustion of its contents, used typically as a firework or signal.",
+  "train": "a series of railroad cars moved as a unit by a locomotive or by integral motors.",
+  "kostya": "elephante"
+    // Add more words and their meanings as needed
+  };
+  
+  function search() {
+    const searchTerm = document.getElementById("searchInput").value.toLowerCase();
+    const resultDiv = document.getElementById("result");
+    if (dictionary.hasOwnProperty(searchTerm)) {
+      resultDiv.innerHTML = `<p><strong>${searchTerm}</strong>: ${dictionary[searchTerm]}</p>`;
+    } else {
+      resultDiv.innerHTML = "<p>Word not found in the dictionary.</p>";
+    }
+  }
+  
